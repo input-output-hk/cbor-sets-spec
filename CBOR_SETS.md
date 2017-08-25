@@ -66,30 +66,36 @@ a different rule, but it should use the same rule for set items as for maps keys
 
 Given the following CBOR array data item, in CBOR diagnostic notation:
 
-   [1,2,3]
+    [1,2,3]
 
 The equivalent value as a set in CBOR diagnostic notation is
 
-   258([1,2,3])
+    258([1,2,3])
 
 And its encoding is 0xd9010283010203:
 
-   D9 0102  -- Tag 258
-      83    -- Array of length 3
-         01 -- 1
-         02 -- 2
-         03 -- 3
+    D9 0102  -- Tag 258
+       83    -- Array of length 3
+          01 -- 1
+          02 -- 2
+          03 -- 3
 
 ## References
 
 [1] C. Bormann, and P. Hoffman. "Concise Binary Object Representation (CBOR)". RFC 7049, October 2013.
+
 [2] https://en.wikipedia.org/wiki/Set_(mathematics)
+
 [3] https://tools.ietf.org/html/rfc7049#section-3.7
+
 [4] https://tools.ietf.org/html/rfc7049#section-3.10
+
 [5] https://tools.ietf.org/html/rfc7049#section-3.9
 
 ## Authors
 
 Duncan  Coutts    <duncan@well-typed.com>
+
 Alfredo Di Napoli <alfredo.dinapoli@iohk.io>
+
 Artyom  Kazak     <yom@artyom.me>
