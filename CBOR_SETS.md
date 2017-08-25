@@ -5,7 +5,7 @@ This document specifies a tag for sets in Concise Binary Object Representation (
     Tag: 258 (set)
     Data item: array
     Semantics: Mathematical finite set
-    Reference: https://github.com/input-output-hk/cardano-sl/tree/master/specs/CBOR_SETS.md
+    Reference: https://github.com/input-output-hk/cbor-sets-spec/blob/master/CBOR_SETS.md
     Contact: Input Output HK <operations@iohk.io>
 
 ## Introduction
